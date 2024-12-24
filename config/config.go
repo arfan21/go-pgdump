@@ -1,7 +1,7 @@
 package config
 
 import (
-	"log"
+	"log/slog"
 	"net/url"
 	"os"
 
@@ -16,7 +16,7 @@ type Config struct {
 func LoadConfig() Config {
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatalf("Error loading .env file: %v", err)
+		slog.Warn("Failed to load .env file, using environment variables")
 	}
 
 	dumpDir := os.Getenv("DUMP_DIR")
