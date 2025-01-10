@@ -1,4 +1,4 @@
-module go-pgdump
+module github.com/arfan21/go-pgdump
 
 go 1.23.2
 

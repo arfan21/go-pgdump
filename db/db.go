@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 	"fmt"
-	"go-pgdump/config"
+	"github.com/arfan21/go-pgdump/config"
 	"log/slog"
 	"os"
 

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"go-pgdump/config"
-	"go-pgdump/db"
-	"go-pgdump/dump"
-	"go-pgdump/util"
+	"github.com/arfan21/go-pgdump/config"
+	"github.com/arfan21/go-pgdump/db"
+	"github.com/arfan21/go-pgdump/dump"
+	"github.com/arfan21/go-pgdump/util"
 	"log/slog"
 	"os"
 	"time"
