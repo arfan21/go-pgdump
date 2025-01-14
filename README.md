@@ -31,8 +31,8 @@ DUMP_DIR=./db_dump
 1. Build and run the project:
 
    ```bash
-   go build -o github.com/arfan21/go-pgdump
-   ./github.com/arfan21/go-pgdump
+   go build -o go-pgdump
+   ./go-pgdump
    ```
 
 2. Check the DUMP_DIR for dumped .sql files.
