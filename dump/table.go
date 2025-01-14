@@ -4,12 +4,13 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/arfan21/go-pgdump/config"
-	"github.com/arfan21/go-pgdump/util"
 	"log/slog"
 	"os"
 	"os/exec"
 	"path/filepath"
+
+	"github.com/arfan21/go-pgdump/config"
+	"github.com/arfan21/go-pgdump/util"
 
 	"golang.org/x/sync/errgroup"
 )
